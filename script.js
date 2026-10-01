@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Minha lista de tarefas</title>
-</head>
+function adicionarTarefa() {
+let texto = document.getElementById("tarefa").value;
 
-<body>
+if (texto === "") {
+alert("Digite uma tarefa!");
+return;
+}
 
-<h1>Minhas tarefas</h1>
-
-<input id="tarefa" placeholder="Digite uma tarefa">
-<button>Adicionar</button>
-
-</body>
-</html>
+alert("Você adicionou: " + texto);
+}
