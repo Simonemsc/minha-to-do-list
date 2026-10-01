@@ -1,3 +1,5 @@
 function adicionarTarefa() {
-alert("Funcionou!");
+let texto = document.getElementById("tarefa").value;
+
+alert("Você adicionou: " + texto);
 }
