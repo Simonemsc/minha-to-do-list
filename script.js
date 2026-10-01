@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Minha lista de tarefas</title>
+</head>
+
+<body>
+
+<h1>Minhas tarefas</h1>
+
+<input id="tarefa" placeholder="Digite uma tarefa">
+<button>Adicionar</button>
+
+</body>
+</html>
